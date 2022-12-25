@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_464825_travelapp.TravelRefQualUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TravelRefQualUtils</name>
+        <script><![CDATA[var TravelRefQualUtils = Class.create();
+TravelRefQualUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getGroupMembers: function(current){
+		return 'sys_idIN'+this._getGroupmembers("bf4112e3077f91102a8bf87e7c1ed0f2");		
+	},
+	
+	_getGroupmembers : function(grpID){
+		//gs.addInfoMessage(current);
+		var users = [];
+		var grp2Member = new GlideRecord('sys_user_grmember');
+		grp2Member.addQuery('group',grpID);
+		grp2Member.query();
+		
+		while(grp2Member.next()){
+			users.push(grp2Member.user.toString());
+		}
+		return users;
+	},
+	
+	getCalculatedDate: function(){
+		//get the days
+		//get startdate
+		//use GlideDate() API
+		//based on start date , set Glide Date
+		//add number of days from start date
+		// return the calculated date
+	},
+
+    type: 'TravelRefQualUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 11:15:21</sys_created_on>
+        <sys_id>6c59aeeb07bf91102a8bf87e7c1ed00e</sys_id>
+        <sys_name>TravelRefQualUtils</sys_name>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_script_include_6c59aeeb07bf91102a8bf87e7c1ed00e</sys_update_name>
+    </sys_script_include>
+</record_update>

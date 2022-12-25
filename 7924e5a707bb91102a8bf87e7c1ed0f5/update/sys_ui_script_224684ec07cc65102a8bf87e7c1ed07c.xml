@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_464825_travelapp.StartEndDateValidatio</name>
+        <script><![CDATA[var x_464825_travelapp = x_464825_travelapp || {};
+
+x_464825_travelapp.StartEndDateValidation = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_464825_travelapp.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_464825_travelapp.sharedVar;
+	}
+*/
+
+	return {
+		helloWorld: function(){
+			alert('hello!');
+			g_form.addInfoMessage('UI script call successful');
+		},
+		
+		type:  "StartEndDateValidation"
+	};
+})();
+]]></script>
+        <script_name>StartEndDateValidation</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 01:53:58</sys_created_on>
+        <sys_id>224684ec07cc65102a8bf87e7c1ed07c</sys_id>
+        <sys_name>x_464825_travelapp.StartEndDateValidatio</sys_name>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_ui_script_224684ec07cc65102a8bf87e7c1ed07c</sys_update_name>
+        <ui_type>0</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+</record_update>

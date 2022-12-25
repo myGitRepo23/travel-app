@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>trip_title</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Format the trip title</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+    var convertedSd = newValue.replace(
+        /\w\S*/g,
+        function(txt) {
+            return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+        }
+    );
+
+    control.setValue(convertedSd);
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 05:39:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd476eb3077fd1102a8bf87e7c1ed08f</sys_id>
+        <sys_name>Format the trip title</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_script_client_cd476eb3077fd1102a8bf87e7c1ed08f</sys_update_name>
+        <table>x_464825_travelapp_travel_request</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

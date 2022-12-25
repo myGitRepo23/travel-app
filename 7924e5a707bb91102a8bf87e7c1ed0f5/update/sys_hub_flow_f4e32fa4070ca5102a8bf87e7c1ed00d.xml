@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>travel_request_automation</internal_name>
+        <label_cache>[{"name":"2a0e0467-764d-408d-9db2-59c9de98da74.__dont_treat_as_error__","label":"3 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2a0e0467-764d-408d-9db2-59c9de98da74.__action_status__","label":"3 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2a0e0467-764d-408d-9db2-59c9de98da74.table_name","label":"3 - Update Record➛Travel Request Table","reference":"x_464825_travelapp_travel_request","reference_display":"Travel Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2a0e0467-764d-408d-9db2-59c9de98da74.record","label":"3 - Update Record➛Travel Request Record","reference":"x_464825_travelapp_travel_request","reference_display":"Travel Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"466a7d51-77cb-4ae8-baab-4df108e2579c.item","label":"2 - For Each➛Travel Request Record","reference":"x_464825_travelapp_travel_request","reference_display":"Travel Request Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"e797f25f-4e9c-4190-959c-11727c646ec4.Records","label":"1 - Look Up Records➛Travel Request Records","reference":"x_464825_travelapp_travel_request","reference_display":"Travel Request Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e797f25f-4e9c-4190-959c-11727c646ec4.Table","label":"1 - Look Up Records➛Travel Request Table","reference":"x_464825_travelapp_travel_request","reference_display":"Travel Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e797f25f-4e9c-4190-959c-11727c646ec4.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e797f25f-4e9c-4190-959c-11727c646ec4.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"e797f25f-4e9c-4190-959c-11727c646ec4.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>OffBoarding user Travel Requests</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 17:57:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4e32fa4070ca5102a8bf87e7c1ed00d</sys_id>
+        <sys_name>OffBoarding user Travel Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_hub_flow_f4e32fa4070ca5102a8bf87e7c1ed00d</sys_update_name>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=f4e32fa4070ca5102a8bf87e7c1ed00d^sys_idNOT IN584da3a4074ca5102a8bf87e7c1ed055"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="OffBoarding user Travel Requests">f4e32fa4070ca5102a8bf87e7c1ed00d</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:38:55</sys_created_on>
+        <sys_id>584da3a4074ca5102a8bf87e7c1ed055</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:52:30</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=584da3a4074ca5102a8bf87e7c1ed055"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>584da3a4074ca5102a8bf87e7c1ed055</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:38:55</sys_created_on>
+        <sys_id>984da3a4074ca5102a8bf87e7c1ed056</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:38:55</sys_updated_on>
+        <value>activeCHANGESTOfalse</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>584da3a4074ca5102a8bf87e7c1ed055</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:38:55</sys_created_on>
+        <sys_id>d04da3a4074ca5102a8bf87e7c1ed057</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:38:55</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=584da3a4074ca5102a8bf87e7c1ed055"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=f4e32fa4070ca5102a8bf87e7c1ed00d^sys_idNOT IN34e32fa4070ca5102a8bf87e7c1ed010"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>f4e32fa4070ca5102a8bf87e7c1ed00d</id>
+        <name>Travel Request automation</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 17:57:59</sys_created_on>
+        <sys_id>34e32fa4070ca5102a8bf87e7c1ed010</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 17:57:59</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=34e32fa4070ca5102a8bf87e7c1ed010"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=f4e32fa4070ca5102a8bf87e7c1ed00d^sys_idNOT IN504da3a4074ca5102a8bf87e7c1ed050,c84deb64074ca5102a8bf87e7c1ed028,cc4deb64074ca5102a8bf87e7c1ed021"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="OffBoarding user Travel Requests">f4e32fa4070ca5102a8bf87e7c1ed00d</model>
+        <model_id>f4e32fa4070ca5102a8bf87e7c1ed00d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f4e32fa4070ca5102a8bf87e7c1ed00d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:38:55</sys_created_on>
+        <sys_id>504da3a4074ca5102a8bf87e7c1ed050</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:38:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="OffBoarding user Travel Requests">f4e32fa4070ca5102a8bf87e7c1ed00d</model>
+        <model_id>f4e32fa4070ca5102a8bf87e7c1ed00d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f4e32fa4070ca5102a8bf87e7c1ed00d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:38:55</sys_created_on>
+        <sys_id>c84deb64074ca5102a8bf87e7c1ed028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:38:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="OffBoarding user Travel Requests">f4e32fa4070ca5102a8bf87e7c1ed00d</model>
+        <model_id>f4e32fa4070ca5102a8bf87e7c1ed00d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_f4e32fa4070ca5102a8bf87e7c1ed00d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:38:55</sys_created_on>
+        <sys_id>cc4deb64074ca5102a8bf87e7c1ed021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:38:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=f4e32fa4070ca5102a8bf87e7c1ed00d^sys_idNOT IN068f2b28074ca5102a8bf87e7c1ed079,418e2be4074ca5102a8bf87e7c1ed0bd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Cancel all open travel requests</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="OffBoarding user Travel Requests">f4e32fa4070ca5102a8bf87e7c1ed00d</flow>
+        <order>3</order>
+        <parent_ui_id>466a7d51-77cb-4ae8-baab-4df108e2579c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:48:52</sys_created_on>
+        <sys_id>068f2b28074ca5102a8bf87e7c1ed079</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:52:30</sys_updated_on>
+        <ui_id>2a0e0467-764d-408d-9db2-59c9de98da74</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=068f2b28074ca5102a8bf87e7c1ed079"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>068f2b28074ca5102a8bf87e7c1ed079</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:48:52</sys_created_on>
+        <sys_id>c28f2b28074ca5102a8bf87e7c1ed07b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:52:30</sys_updated_on>
+        <value>request_status=cancel^additional_comments=User no longer active in the system, hence ticket cancelled.﻿</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>068f2b28074ca5102a8bf87e7c1ed079</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:48:52</sys_created_on>
+        <sys_id>c68f2b28074ca5102a8bf87e7c1ed07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:48:52</sys_updated_on>
+        <value>x_464825_travelapp_travel_request</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=068f2b28074ca5102a8bf87e7c1ed079"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>068f2b28074ca5102a8bf87e7c1ed079</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:48:52</sys_created_on>
+        <sys_id>428f2b28074ca5102a8bf87e7c1ed07b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{466a7d51-77cb-4ae8-baab-4df108e2579c.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>068f2b28074ca5102a8bf87e7c1ed079</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:48:52</sys_created_on>
+        <sys_id>ca8f2b28074ca5102a8bf87e7c1ed07a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>068f2b28074ca5102a8bf87e7c1ed079</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:48:52</sys_created_on>
+        <sys_id>8e8f2b28074ca5102a8bf87e7c1ed07a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=068f2b28074ca5102a8bf87e7c1ed079"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=068f2b28074ca5102a8bf87e7c1ed079"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment>Retrieve all the open travel requests for the offboarding user</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="OffBoarding user Travel Requests">f4e32fa4070ca5102a8bf87e7c1ed00d</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:44:26</sys_created_on>
+        <sys_id>418e2be4074ca5102a8bf87e7c1ed0bd</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:52:30</sys_updated_on>
+        <ui_id>e797f25f-4e9c-4190-959c-11727c646ec4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=418e2be4074ca5102a8bf87e7c1ed0bd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>418e2be4074ca5102a8bf87e7c1ed0bd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:44:26</sys_created_on>
+        <sys_id>418e2be4074ca5102a8bf87e7c1ed0c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:44:26</sys_updated_on>
+        <value>x_464825_travelapp_travel_request</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=418e2be4074ca5102a8bf87e7c1ed0bd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>418e2be4074ca5102a8bf87e7c1ed0bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:44:26</sys_created_on>
+        <sys_id>c58e2be4074ca5102a8bf87e7c1ed0bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:52:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>traveller_name.user={{Updated_1.current}}^request_statusINnew,ongoing</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>418e2be4074ca5102a8bf87e7c1ed0bd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:44:26</sys_created_on>
+        <sys_id>cd8e2be4074ca5102a8bf87e7c1ed0bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:44:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=418e2be4074ca5102a8bf87e7c1ed0bd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=418e2be4074ca5102a8bf87e7c1ed0bd"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=f4e32fa4070ca5102a8bf87e7c1ed00d^sys_idNOT INce8f2b28074ca5102a8bf87e7c1ed071"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">468f2b28074ca5102a8bf87e7c1ed071</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="OffBoarding user Travel Requests">f4e32fa4070ca5102a8bf87e7c1ed00d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:48:52</sys_created_on>
+        <sys_id>ce8f2b28074ca5102a8bf87e7c1ed071</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:52:30</sys_updated_on>
+        <ui_id>466a7d51-77cb-4ae8-baab-4df108e2579c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=ce8f2b28074ca5102a8bf87e7c1ed071"/>
+    <sys_element_mapping action="delete_multiple" query="id=ce8f2b28074ca5102a8bf87e7c1ed071"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>ce8f2b28074ca5102a8bf87e7c1ed071</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:48:52</sys_created_on>
+        <sys_id>468f2b28074ca5102a8bf87e7c1ed075</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:48:52</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{e797f25f-4e9c-4190-959c-11727c646ec4.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=ce8f2b28074ca5102a8bf87e7c1ed071"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ce8f2b28074ca5102a8bf87e7c1ed071"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_f4e32fa4070ca5102a8bf87e7c1ed00d^sys_idNOT IN884deb64074ca5102a8bf87e7c1ed027,904da3a4074ca5102a8bf87e7c1ed052,944da3a4074ca5102a8bf87e7c1ed04f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f4e32fa4070ca5102a8bf87e7c1ed00d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:38:55</sys_created_on>
+        <sys_id>884deb64074ca5102a8bf87e7c1ed027</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:38:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f4e32fa4070ca5102a8bf87e7c1ed00d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:38:55</sys_created_on>
+        <sys_id>904da3a4074ca5102a8bf87e7c1ed052</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:38:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_f4e32fa4070ca5102a8bf87e7c1ed00d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-25 18:38:55</sys_created_on>
+        <sys_id>944da3a4074ca5102a8bf87e7c1ed04f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-25 18:38:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f4e32fa4070ca5102a8bf87e7c1ed00d"/>
+</record_update>

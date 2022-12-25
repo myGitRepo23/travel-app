@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Travel Booking">066721a707bb91102a8bf87e7c1ed081</application>
+        <assessment/>
+        <device_type/>
+        <filter table="sys_user_group">typeLIKE8b71d2e3077f91102a8bf87e7c1ed0e1^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="LIKE" or="false" value="8b71d2e3077f91102a8bf87e7c1ed0e1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>TRE Groups</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>sys_user_group</name>
+        <order>900</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 09:31:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8f2d627077f91102a8bf87e7c1ed0d2</sys_id>
+        <sys_name>TRE Groups</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_app_module_f8f2d627077f91102a8bf87e7c1ed0d2</sys_update_name>
+        <timeline_page/>
+        <title>TRE Groups</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

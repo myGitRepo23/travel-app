@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="travel_user" name="travel_user">6c774ac707a351502a8bf87e7c1ed062</contains>
+        <role display_value="x_464825_travelapp.travel_agent" name="x_464825_travelapp.travel_agent">dd54e5a707bb91102a8bf87e7c1ed0bb</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 09:43:53</sys_created_on>
+        <sys_id>ad069e2b077f91102a8bf87e7c1ed080</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>travel_user.x_464825_travelapp.travel_agent</sys_name>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_user_role_contains_ad069e2b077f91102a8bf87e7c1ed080</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-22 09:43:53</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</application>
+        <file_path/>
+        <instance_id>88596c13dbc8cc5452cec5970596190e</instance_id>
+        <instance_name>dev93956</instance_name>
+        <name>sys_user_role_contains_ad069e2b077f91102a8bf87e7c1ed080</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="travel_user" name="travel_user">6c774ac707a351502a8bf87e7c1ed062</contains><role display_value="x_464825_travelapp.travel_agent" name="x_464825_travelapp.travel_agent">dd54e5a707bb91102a8bf87e7c1ed0bb</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-12-22 09:43:53</sys_created_on><sys_id>ad069e2b077f91102a8bf87e7c1ed080</sys_id><sys_mod_count>0</sys_mod_count><sys_name>travel_user.x_464825_travelapp.travel_agent</sys_name><sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package><sys_policy/><sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope><sys_update_name>sys_user_role_contains_ad069e2b077f91102a8bf87e7c1ed080</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-12-22 09:43:53</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>102499915</payload_hash>
+        <record_name>travel_user.x_464825_travelapp.travel_agent</record_name>
+        <reverted_from/>
+        <source>f124e5a707bb91102a8bf87e7c1ed0f7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 09:43:53</sys_created_on>
+        <sys_id>e5069e2b077f91102a8bf87e7c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1853937c2190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-22 09:43:53</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>ed069e2b677f911029fb155dfbf3dc83</update_guid>
+        <update_guid_history>ed069e2b677f911029fb155dfbf3dc83:102499915</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-22 09:48:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>1b0788d1e7ba4da08a1cd36f6dab7d10</sys_id>
+        <sys_metadata>ad069e2b077f91102a8bf87e7c1ed080</sys_metadata>
+        <sys_name>travel_user.x_464825_travelapp.travel_agent</sys_name>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_scope_delete display_value="">6f008b91449b4f1893e56309dfbf6cc1</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_ad069e2b077f91102a8bf87e7c1ed080</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_ad069e2b077f91102a8bf87e7c1ed080">e5069e2b077f91102a8bf87e7c1ed084</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

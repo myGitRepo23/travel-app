@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description/>
+        <global>false</global>
+        <ignore_in_now_experience>false</ignore_in_now_experience>
+        <name>x_464825_travelapp.DateValidator</name>
+        <script><![CDATA[var x_464825_travelapp = x_464825_travelapp || {};
+
+x_464825_travelapp.DateValidator = (function() {
+    "use strict";
+	
+    
+})();]]></script>
+        <script_name>DateValidator</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-23 05:36:57</sys_created_on>
+        <sys_id>9725ee33077fd1102a8bf87e7c1ed0a8</sys_id>
+        <sys_name>x_464825_travelapp.DateValidator</sys_name>
+        <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+        <sys_update_name>sys_ui_script_9725ee33077fd1102a8bf87e7c1ed0a8</sys_update_name>
+        <ui_type>0</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+</record_update>

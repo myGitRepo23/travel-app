@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="number" label="Booking Number" language="en" table="x_464825_travelapp_travel_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <help/>
+            <hint/>
+            <label>Booking Number</label>
+            <language>en</language>
+            <name>x_464825_travelapp_travel_request</name>
+            <plural>Booking Numbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-12-22 06:16:38</sys_created_on>
+            <sys_name>Booking Number</sys_name>
+            <sys_package display_value="Travel Booking" source="x_464825_travelapp">7924e5a707bb91102a8bf87e7c1ed0f5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Travel Booking">7924e5a707bb91102a8bf87e7c1ed0f5</sys_scope>
+            <sys_update_name>sys_documentation_x_464825_travelapp_travel_request_number_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
