@@ -30,6 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
+	//123 testing
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
